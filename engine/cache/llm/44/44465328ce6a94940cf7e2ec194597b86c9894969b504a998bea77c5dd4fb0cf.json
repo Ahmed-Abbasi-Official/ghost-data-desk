@@ -1,0 +1,109 @@
+{
+ "result": {
+  "labels": [
+   {
+    "i": 1,
+    "label": "DELETE"
+   },
+   {
+    "i": 2,
+    "label": "DELETE"
+   },
+   {
+    "i": 3,
+    "label": "DELETE"
+   },
+   {
+    "i": 4,
+    "label": "DELETE"
+   },
+   {
+    "i": 5,
+    "label": "DELETE"
+   },
+   {
+    "i": 6,
+    "label": "DELETE"
+   },
+   {
+    "i": 7,
+    "label": "DELETE"
+   },
+   {
+    "i": 8,
+    "label": "DELETE"
+   },
+   {
+    "i": 9,
+    "label": "DELETE"
+   },
+   {
+    "i": 10,
+    "label": "DELETE"
+   },
+   {
+    "i": 11,
+    "label": "DELETE"
+   },
+   {
+    "i": 12,
+    "label": "DELETE"
+   },
+   {
+    "i": 13,
+    "label": "DELETE"
+   },
+   {
+    "i": 14,
+    "label": "DELETE"
+   },
+   {
+    "i": 15,
+    "label": "DELETE"
+   },
+   {
+    "i": 16,
+    "label": "DELETE"
+   },
+   {
+    "i": 17,
+    "label": "DELETE"
+   },
+   {
+    "i": 18,
+    "label": "DELETE"
+   },
+   {
+    "i": 19,
+    "label": "DELETE"
+   },
+   {
+    "i": 20,
+    "label": "DELETE"
+   },
+   {
+    "i": 21,
+    "label": "DELETE"
+   },
+   {
+    "i": 22,
+    "label": "DELETE"
+   },
+   {
+    "i": 23,
+    "label": "DELETE"
+   },
+   {
+    "i": 24,
+    "label": "DELETE"
+   },
+   {
+    "i": 25,
+    "label": "DELETE"
+   }
+  ]
+ },
+ "input_tokens": 1171,
+ "output_tokens": 378,
+ "raw": "{\n  \"labels\": [\n    {\"i\": 1, \"label\": \"DELETE\"},\n    {\"i\": 2, \"label\": \"DELETE\"},\n    {\"i\": 3, \"label\": \"DELETE\"},\n    {\"i\": 4, \"label\": \"DELETE\"},\n    {\"i\": 5, \"label\": \"DELETE\"},\n    {\"i\": 6, \"label\": \"DELETE\"},\n    {\"i\": 7, \"label\": \"DELETE\"},\n    {\"i\": 8, \"label\": \"DELETE\"},\n    {\"i\": 9, \"label\": \"DELETE\"},\n    {\"i\": 10, \"label\": \"DELETE\"},\n    {\"i\": 11, \"label\": \"DELETE\"},\n    {\"i\": 12, \"label\": \"DELETE\"},\n    {\"i\": 13, \"label\": \"DELETE\"},\n    {\"i\": 14, \"label\": \"DELETE\"},\n    {\"i\": 15, \"label\": \"DELETE\"},\n    {\"i\": 16, \"label\": \"DELETE\"},\n    {\"i\": 17, \"label\": \"DELETE\"},\n    {\"i\": 18, \"label\": \"DELETE\"},\n    {\"i\": 19, \"label\": \"DELETE\"},\n    {\"i\": 20, \"label\": \"DELETE\"},\n    {\"i\": 21, \"label\": \"DELETE\"},\n    {\"i\": 22, \"label\": \"DELETE\"},\n    {\"i\": 23, \"label\": \"DELETE\"},\n    {\"i\": 24, \"label\": \"DELETE\"},\n    {\"i\": 25, \"label\": \"DELETE\"}\n  ]\n}"
+}

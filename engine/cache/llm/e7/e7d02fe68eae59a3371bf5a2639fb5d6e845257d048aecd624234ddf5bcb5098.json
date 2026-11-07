@@ -1,0 +1,109 @@
+{
+ "result": {
+  "app_name": "Northstar Shop",
+  "search_box": "email:g.silva76@gmail.com",
+  "breadcrumb": "Northstar Shop / Search Console / Customer Search",
+  "page_title": "Customer Search",
+  "page_badge": "2 hits",
+  "page_subtitle": "customer_directory_v3 / prod-eu",
+  "subject_person_name": null,
+  "cards": [
+   {
+    "label": "Executed",
+    "value": "01 Sep 2026 06:00:14 UTC"
+   },
+   {
+    "label": "Latency",
+    "value": "184 ms"
+   },
+   {
+    "label": "Index",
+    "value": "customer_directory_v3"
+   },
+   {
+    "label": "Environment",
+    "value": "prod-eu"
+   },
+   {
+    "label": "Shard total",
+    "value": "184 ms"
+   }
+  ],
+  "table": {
+   "title": "Results (2)",
+   "count_text": "Updated moments ago · 2 records",
+   "columns": [
+    "_id",
+    "Display name",
+    "Email",
+    "Customer reference",
+    "Score",
+    "Last indexed"
+   ],
+   "rows": [
+    [
+     "search_428",
+     "Gabriel Silva",
+     "g.silva76@gmail.com",
+     "user_13",
+     "9.84",
+     "05:58:21 UTC"
+    ],
+    [
+     "search_1874",
+     "—",
+     "g.silva76.jr@gmail.com",
+     "—",
+     "4.12",
+     "05:55:03 UTC"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "Raw document · search_428",
+   "fields": [
+    {
+     "label": "_index",
+     "value": "customer_directory_v3"
+    },
+    {
+     "label": "_id",
+     "value": "search_428"
+    },
+    {
+     "label": "display_name",
+     "value": "Gabriel Silva"
+    },
+    {
+     "label": "email",
+     "value": "g.silva76@gmail.com"
+    },
+    {
+     "label": "customer_reference",
+     "value": "user_13"
+    },
+    {
+     "label": "indexed_at",
+     "value": "2026-09-01T05:58:21Z"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "06:00:14",
+    "text": "email:g.silva76@gmail.com · 2 hits"
+   },
+   {
+    "when": "05:42:03",
+    "text": "customer_reference:user_9842 · 1 hit"
+   },
+   {
+    "when": "05:31:18",
+    "text": "display_name:\"Aditi Jain\" · 1 hit"
+   }
+  ]
+ },
+ "input_tokens": 2517,
+ "output_tokens": 789,
+ "raw": "{\n  \"app_name\": \"Northstar Shop\",\n  \"search_box\": \"email:g.silva76@gmail.com\",\n  \"breadcrumb\": \"Northstar Shop / Search Console / Customer Search\",\n  \"page_title\": \"Customer Search\",\n  \"page_badge\": \"2 hits\",\n  \"page_subtitle\": \"customer_directory_v3 / prod-eu\",\n  \"subject_person_name\": null,\n  \"cards\": [\n    {\n      \"label\": \"Executed\",\n      \"value\": \"01 Sep 2026 06:00:14 UTC\"\n    },\n    {\n      \"label\": \"Latency\",\n      \"value\": \"184 ms\"\n    },\n    {\n      \"label\": \"Index\",\n      \"value\": \"customer_directory_v3\"\n    },\n    {\n      \"label\": \"Environment\",\n      \"value\": \"prod-eu\"\n    },\n    {\n      \"label\": \"Shard total\",\n      \"value\": \"184 ms\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Results (2)\",\n    \"count_text\": \"Updated moments ago · 2 records\",\n    \"columns\": [\n      \"_id\",\n      \"Display name\",\n      \"Email\",\n      \"Customer reference\",\n      \"Score\",\n      \"Last indexed\"\n    ],\n    \"rows\": [\n      [\n        \"search_428\",\n        \"Gabriel Silva\",\n        \"g.silva76@gmail.com\",\n        \"user_13\",\n        \"9.84\",\n        \"05:58:21 UTC\"\n      ],\n      [\n        \"search_1874\",\n        \"—\",\n        \"g.silva76.jr@gmail.com\",\n        \"—\",\n        \"4.12\",\n        \"05:55:03 UTC\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"Raw document · search_428\",\n    \"fields\": [\n      {\n        \"label\": \"_index\",\n        \"value\": \"customer_directory_v3\"\n      },\n      {\n        \"label\": \"_id\",\n        \"value\": \"search_428\"\n      },\n      {\n        \"label\": \"display_name\",\n        \"value\": \"Gabriel Silva\"\n      },\n      {\n        \"label\": \"email\",\n        \"value\": \"g.silva76@gmail.com\"\n      },\n      {\n        \"label\": \"customer_reference\",\n        \"value\": \"user_13\"\n      },\n      {\n        \"label\": \"indexed_at\",\n        \"value\": \"2026-09-01T05:58:21Z\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"06:00:14\",\n      \"text\": \"email:g.silva76@gmail.com · 2 hits\"\n    },\n    {\n      \"when\": \"05:42:03\",\n      \"text\": \"customer_reference:user_9842 · 1 hit\"\n    },\n    {\n      \"when\": \"05:31:18\",\n      \"text\": \"display_name:\\\"Aditi Jain\\\" · 1 hit\"\n    }\n  ]\n}"
+}

@@ -1,0 +1,101 @@
+{
+ "result": {
+  "labels": [
+   {
+    "i": 1,
+    "label": "DELETE"
+   },
+   {
+    "i": 2,
+    "label": "DELETE"
+   },
+   {
+    "i": 3,
+    "label": "DELETE"
+   },
+   {
+    "i": 4,
+    "label": "DELETE"
+   },
+   {
+    "i": 5,
+    "label": "DELETE"
+   },
+   {
+    "i": 6,
+    "label": "DELETE"
+   },
+   {
+    "i": 7,
+    "label": "DELETE"
+   },
+   {
+    "i": 8,
+    "label": "DELETE"
+   },
+   {
+    "i": 9,
+    "label": "DELETE"
+   },
+   {
+    "i": 10,
+    "label": "DELETE"
+   },
+   {
+    "i": 11,
+    "label": "DELETE"
+   },
+   {
+    "i": 12,
+    "label": "DELETE"
+   },
+   {
+    "i": 13,
+    "label": "DELETE"
+   },
+   {
+    "i": 14,
+    "label": "DELETE"
+   },
+   {
+    "i": 15,
+    "label": "DELETE"
+   },
+   {
+    "i": 16,
+    "label": "DELETE"
+   },
+   {
+    "i": 17,
+    "label": "DELETE"
+   },
+   {
+    "i": 18,
+    "label": "DELETE"
+   },
+   {
+    "i": 19,
+    "label": "NOT_APPLICABLE"
+   },
+   {
+    "i": 20,
+    "label": "NOT_APPLICABLE"
+   },
+   {
+    "i": 21,
+    "label": "NOT_APPLICABLE"
+   },
+   {
+    "i": 22,
+    "label": "DELETE"
+   },
+   {
+    "i": 23,
+    "label": "DELETE"
+   }
+  ]
+ },
+ "input_tokens": 1036,
+ "output_tokens": 303,
+ "raw": "{\"labels\": [{\"i\": 1, \"label\": \"DELETE\"}, {\"i\": 2, \"label\": \"DELETE\"}, {\"i\": 3, \"label\": \"DELETE\"}, {\"i\": 4, \"label\": \"DELETE\"}, {\"i\": 5, \"label\": \"DELETE\"}, {\"i\": 6, \"label\": \"DELETE\"}, {\"i\": 7, \"label\": \"DELETE\"}, {\"i\": 8, \"label\": \"DELETE\"}, {\"i\": 9, \"label\": \"DELETE\"}, {\"i\": 10, \"label\": \"DELETE\"}, {\"i\": 11, \"label\": \"DELETE\"}, {\"i\": 12, \"label\": \"DELETE\"}, {\"i\": 13, \"label\": \"DELETE\"}, {\"i\": 14, \"label\": \"DELETE\"}, {\"i\": 15, \"label\": \"DELETE\"}, {\"i\": 16, \"label\": \"DELETE\"}, {\"i\": 17, \"label\": \"DELETE\"}, {\"i\": 18, \"label\": \"DELETE\"}, {\"i\": 19, \"label\": \"NOT_APPLICABLE\"}, {\"i\": 20, \"label\": \"NOT_APPLICABLE\"}, {\"i\": 21, \"label\": \"NOT_APPLICABLE\"}, {\"i\": 22, \"label\": \"DELETE\"}, {\"i\": 23, \"label\": \"DELETE\"}]}"
+}

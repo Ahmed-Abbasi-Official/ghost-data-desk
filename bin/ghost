@@ -1,0 +1,4 @@
+#!/bin/sh
+# Runs the Ghost Data Desk tool with the project's virtual environment, from any folder.
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+exec "$ROOT/.venv/bin/python" "$ROOT/tools/ghost.py" "$@"

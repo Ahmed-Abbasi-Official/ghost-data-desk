@@ -1,0 +1,124 @@
+{
+ "result": {
+  "app_name": "Northstar Shop",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / Customer Download Center / Data exports",
+  "page_title": "Data exports",
+  "page_badge": "4 jobs",
+  "page_subtitle": "Create and manage customer download packages",
+  "subject_person_name": null,
+  "cards": [
+   {
+    "label": "Ready",
+    "value": "2"
+   },
+   {
+    "label": "Processing",
+    "value": "2"
+   },
+   {
+    "label": "Created today",
+    "value": "1"
+   },
+   {
+    "label": "Downloads today",
+    "value": "0"
+   }
+  ],
+  "table": {
+   "title": "All exports",
+   "count_text": "Updated moments ago · 4 records",
+   "columns": [
+    "Export ID",
+    "Filename",
+    "Owner",
+    "Status",
+    "Created"
+   ],
+   "rows": [
+    [
+     "export_1261",
+     "customer_export_1261.zip",
+     "marcus.lee@northstar.shop",
+     "Collecting",
+     "20 Jun 14:18 UTC"
+    ],
+    [
+     "export_1260",
+     "customer_export_1260.zip",
+     "ingrid.dahl@outlook.com",
+     "Ready",
+     "18 Jun 06:42 UTC"
+    ],
+    [
+     "export_1259",
+     "customer_export_1259.zip",
+     "sara.kim@northstar.shop",
+     "Packaging",
+     "17 Jun 11:03 UTC"
+    ],
+    [
+     "export_1258",
+     "customer_export_1258.zip",
+     "daniel.park@northstar.shop",
+     "Ready",
+     "16 Jun 09:27 UTC"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "export_1260",
+   "fields": [
+    {
+     "label": "Owner",
+     "value": "ingrid.dahl@outlook.com"
+    },
+    {
+     "label": "Created",
+     "value": "18 Jun 2026 06:42 UTC"
+    },
+    {
+     "label": "Expires",
+     "value": "25 Jun 2026 06:42 UTC"
+    },
+    {
+     "label": "Size",
+     "value": "18.4 MB"
+    },
+    {
+     "label": "Checksum",
+     "value": "SHA-256 · 41ca09..."
+    },
+    {
+     "label": "Download count",
+     "value": "0"
+    },
+    {
+     "label": "Included",
+     "value": "Profile · Orders · Saved addresses"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "06:46",
+    "text": "Ready for download"
+   },
+   {
+    "when": "06:45",
+    "text": "Package created"
+   },
+   {
+    "when": "06:43",
+    "text": "Collecting customer records"
+   },
+   {
+    "when": "06:42",
+    "text": "Export requested"
+   }
+  ]
+ },
+ "input_tokens": 2517,
+ "output_tokens": 859,
+ "raw": "{\n  \"app_name\": \"Northstar Shop\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / Customer Download Center / Data exports\",\n  \"page_title\": \"Data exports\",\n  \"page_badge\": \"4 jobs\",\n  \"page_subtitle\": \"Create and manage customer download packages\",\n  \"subject_person_name\": null,\n  \"cards\": [\n    {\n      \"label\": \"Ready\",\n      \"value\": \"2\"\n    },\n    {\n      \"label\": \"Processing\",\n      \"value\": \"2\"\n    },\n    {\n      \"label\": \"Created today\",\n      \"value\": \"1\"\n    },\n    {\n      \"label\": \"Downloads today\",\n      \"value\": \"0\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"All exports\",\n    \"count_text\": \"Updated moments ago · 4 records\",\n    \"columns\": [\n      \"Export ID\",\n      \"Filename\",\n      \"Owner\",\n      \"Status\",\n      \"Created\"\n    ],\n    \"rows\": [\n      [\n        \"export_1261\",\n        \"customer_export_1261.zip\",\n        \"marcus.lee@northstar.shop\",\n        \"Collecting\",\n        \"20 Jun 14:18 UTC\"\n      ],\n      [\n        \"export_1260\",\n        \"customer_export_1260.zip\",\n        \"ingrid.dahl@outlook.com\",\n        \"Ready\",\n        \"18 Jun 06:42 UTC\"\n      ],\n      [\n        \"export_1259\",\n        \"customer_export_1259.zip\",\n        \"sara.kim@northstar.shop\",\n        \"Packaging\",\n        \"17 Jun 11:03 UTC\"\n      ],\n      [\n        \"export_1258\",\n        \"customer_export_1258.zip\",\n        \"daniel.park@northstar.shop\",\n        \"Ready\",\n        \"16 Jun 09:27 UTC\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"export_1260\",\n    \"fields\": [\n      {\n        \"label\": \"Owner\",\n        \"value\": \"ingrid.dahl@outlook.com\"\n      },\n      {\n        \"label\": \"Created\",\n        \"value\": \"18 Jun 2026 06:42 UTC\"\n      },\n      {\n        \"label\": \"Expires\",\n        \"value\": \"25 Jun 2026 06:42 UTC\"\n      },\n      {\n        \"label\": \"Size\",\n        \"value\": \"18.4 MB\"\n      },\n      {\n        \"label\": \"Checksum\",\n        \"value\": \"SHA-256 · 41ca09...\"\n      },\n      {\n        \"label\": \"Download count\",\n        \"value\": \"0\"\n      },\n      {\n        \"label\": \"Included\",\n        \"value\": \"Profile · Orders · Saved addresses\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"06:46\",\n      \"text\": \"Ready for download\"\n    },\n    {\n      \"when\": \"06:45\",\n      \"text\": \"Package created\"\n    },\n    {\n      \"when\": \"06:43\",\n      \"text\": \"Collecting customer records\"\n    },\n    {\n      \"when\": \"06:42\",\n      \"text\": \"Export requested\"\n    }\n  ]\n}"
+}

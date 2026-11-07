@@ -1,0 +1,134 @@
+{
+ "result": {
+  "app_name": "Vault Recovery Manager",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / Vault Recovery Manager / Recovery Manager",
+  "page_title": "Customer-platform archives",
+  "page_badge": "Healthy",
+  "page_subtitle": "Northstar Production · weekly snapshots",
+  "subject_person_name": null,
+  "cards": [
+   {
+    "label": "Service health",
+    "value": "Healthy"
+   },
+   {
+    "label": "Storage growth",
+    "value": "+12.4%"
+   },
+   {
+    "label": "Restore success",
+    "value": "99.6%"
+   },
+   {
+    "label": "Stored",
+    "value": "1.35 PB"
+   }
+  ],
+  "table": {
+   "title": "Archives",
+   "count_text": "Updated moments ago · 4 records",
+   "columns": [
+    "Archive ID",
+    "Account",
+    "Region",
+    "Created",
+    "Size",
+    "Encryption",
+    "Tier"
+   ],
+   "rows": [
+    [
+     "backup_9291",
+     "bluepeakco@outlook.com",
+     "ap-southeast-1",
+     "26 Apr 02:00",
+     "102.3 GB",
+     "AES-256",
+     "Archive"
+    ],
+    [
+     "backup_9288",
+     "miller.logistics@company.com",
+     "us-west-2",
+     "26 Apr 02:00",
+     "67.1 GB",
+     "AES-256",
+     "Archive"
+    ],
+    [
+     "backup_9287",
+     "areed1433@gmail.com",
+     "eu-west-1",
+     "26 Apr 02:00",
+     "84.7 GB",
+     "AES-256",
+     "Archive"
+    ],
+    [
+     "backup_9286",
+     "summit-retail@company.com",
+     "us-east-1",
+     "26 Apr 02:00",
+     "91.4 GB",
+     "AES-256",
+     "Archive"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "backup_9287",
+   "fields": [
+    {
+     "label": "Account",
+     "value": "areed1433@gmail.com"
+    },
+    {
+     "label": "Path",
+     "value": "s3://northstar-backups/customer-platform/weekly/segment-42-20260426.tar.zst"
+    },
+    {
+     "label": "Region",
+     "value": "eu-west-1"
+    },
+    {
+     "label": "Created",
+     "value": "26 Apr 2026 02:00 UTC"
+    },
+    {
+     "label": "Encryption",
+     "value": "AES-256"
+    },
+    {
+     "label": "Checksum",
+     "value": "Verified"
+    },
+    {
+     "label": "Last drill",
+     "value": "29 Mar 2026"
+    },
+    {
+     "label": "Retention end",
+     "value": "26 Jul 2026"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "25 Apr",
+    "text": "backup_9286 restored · Completed"
+   },
+   {
+    "when": "24 Apr",
+    "text": "backup_9281 restored · Completed"
+   },
+   {
+    "when": "22 Apr",
+    "text": "checksum verification · Completed"
+   }
+  ]
+ },
+ "input_tokens": 2629,
+ "output_tokens": 947,
+ "raw": "{\n  \"app_name\": \"Vault Recovery Manager\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / Vault Recovery Manager / Recovery Manager\",\n  \"page_title\": \"Customer-platform archives\",\n  \"page_badge\": \"Healthy\",\n  \"page_subtitle\": \"Northstar Production · weekly snapshots\",\n  \"subject_person_name\": null,\n  \"cards\": [\n    {\n      \"label\": \"Service health\",\n      \"value\": \"Healthy\"\n    },\n    {\n      \"label\": \"Storage growth\",\n      \"value\": \"+12.4%\"\n    },\n    {\n      \"label\": \"Restore success\",\n      \"value\": \"99.6%\"\n    },\n    {\n      \"label\": \"Stored\",\n      \"value\": \"1.35 PB\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Archives\",\n    \"count_text\": \"Updated moments ago · 4 records\",\n    \"columns\": [\n      \"Archive ID\",\n      \"Account\",\n      \"Region\",\n      \"Created\",\n      \"Size\",\n      \"Encryption\",\n      \"Tier\"\n    ],\n    \"rows\": [\n      [\n        \"backup_9291\",\n        \"bluepeakco@outlook.com\",\n        \"ap-southeast-1\",\n        \"26 Apr 02:00\",\n        \"102.3 GB\",\n        \"AES-256\",\n        \"Archive\"\n      ],\n      [\n        \"backup_9288\",\n        \"miller.logistics@company.com\",\n        \"us-west-2\",\n        \"26 Apr 02:00\",\n        \"67.1 GB\",\n        \"AES-256\",\n        \"Archive\"\n      ],\n      [\n        \"backup_9287\",\n        \"areed1433@gmail.com\",\n        \"eu-west-1\",\n        \"26 Apr 02:00\",\n        \"84.7 GB\",\n        \"AES-256\",\n        \"Archive\"\n      ],\n      [\n        \"backup_9286\",\n        \"summit-retail@company.com\",\n        \"us-east-1\",\n        \"26 Apr 02:00\",\n        \"91.4 GB\",\n        \"AES-256\",\n        \"Archive\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"backup_9287\",\n    \"fields\": [\n      {\n        \"label\": \"Account\",\n        \"value\": \"areed1433@gmail.com\"\n      },\n      {\n        \"label\": \"Path\",\n        \"value\": \"s3://northstar-backups/customer-platform/weekly/segment-42-20260426.tar.zst\"\n      },\n      {\n        \"label\": \"Region\",\n        \"value\": \"eu-west-1\"\n      },\n      {\n        \"label\": \"Created\",\n        \"value\": \"26 Apr 2026 02:00 UTC\"\n      },\n      {\n        \"label\": \"Encryption\",\n        \"value\": \"AES-256\"\n      },\n      {\n        \"label\": \"Checksum\",\n        \"value\": \"Verified\"\n      },\n      {\n        \"label\": \"Last drill\",\n        \"value\": \"29 Mar 2026\"\n      },\n      {\n        \"label\": \"Retention end\",\n        \"value\": \"26 Jul 2026\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"25 Apr\",\n      \"text\": \"backup_9286 restored · Completed\"\n    },\n    {\n      \"when\": \"24 Apr\",\n      \"text\": \"backup_9281 restored · Completed\"\n    },\n    {\n      \"when\": \"22 Apr\",\n      \"text\": \"checksum verification · Completed\"\n    }\n  ]\n}"
+}

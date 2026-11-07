@@ -1,0 +1,13 @@
+{
+ "result": {
+  "labels": [
+   {
+    "i": 1,
+    "label": "DELETE"
+   }
+  ]
+ },
+ "input_tokens": 190,
+ "output_tokens": 16,
+ "raw": "{\"labels\": [{\"i\": 1, \"label\": \"DELETE\"}]}"
+}

@@ -1,0 +1,113 @@
+{
+ "result": {
+  "app_name": "Northstar Shop",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / Customer Operations / Customers",
+  "page_title": "Haruka Sato",
+  "page_badge": "Silver",
+  "page_subtitle": "user_11 · account_5762",
+  "subject_person_name": "Haruka Sato",
+  "cards": [
+   {
+    "label": "Email",
+    "value": "haruka.s1838@zoho.com"
+   },
+   {
+    "label": "Phone",
+    "value": "+81 90 7610 2507"
+   },
+   {
+    "label": "Signup channel",
+    "value": "mobile_app"
+   },
+   {
+    "label": "Market",
+    "value": "JP"
+   },
+   {
+    "label": "Preferred language",
+    "value": "Japanese"
+   },
+   {
+    "label": "Last contact",
+    "value": "24 Sep 2026 09:14 JST"
+   }
+  ],
+  "table": {
+   "title": "Overview",
+   "count_text": "Updated moments ago · 2 records",
+   "columns": [
+    "Order ID",
+    "Date",
+    "Item",
+    "Qty",
+    "Total",
+    "Status"
+   ],
+   "rows": [
+    [
+     "ORD-20265762",
+     "12 Sep 2026",
+     "Ceramic coffee set",
+     "1",
+     "JPY 8,900",
+     "Delivered · 18 Sep"
+    ],
+    [
+     "ORD-20265518",
+     "28 Aug 2026",
+     "Travel backpack",
+     "1",
+     "JPY 12,400",
+     "Returned · 03 Sep"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "Customer details",
+   "fields": [
+    {
+     "label": "Default address",
+     "value": "2-18-4 Kichijoji, Musashino, Tokyo 180-0004"
+    },
+    {
+     "label": "Loyalty tier",
+     "value": "Silver"
+    },
+    {
+     "label": "Support",
+     "value": "CS-8538 · support_9538"
+    },
+    {
+     "label": "Member since",
+     "value": "12 Jan 2024"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "24 Sep",
+    "text": "Customer replied to CS-8538"
+   },
+   {
+    "when": "22 Sep",
+    "text": "Support agent responded"
+   },
+   {
+    "when": "18 Sep",
+    "text": "Order ORD-20265762 delivered"
+   },
+   {
+    "when": "03 Sep",
+    "text": "Order ORD-20265518 returned"
+   },
+   {
+    "when": "28 Aug",
+    "text": "support_9538 created"
+   }
+  ]
+ },
+ "input_tokens": 2741,
+ "output_tokens": 821,
+ "raw": "{\n  \"app_name\": \"Northstar Shop\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / Customer Operations / Customers\",\n  \"page_title\": \"Haruka Sato\",\n  \"page_badge\": \"Silver\",\n  \"page_subtitle\": \"user_11 · account_5762\",\n  \"subject_person_name\": \"Haruka Sato\",\n  \"cards\": [\n    {\n      \"label\": \"Email\",\n      \"value\": \"haruka.s1838@zoho.com\"\n    },\n    {\n      \"label\": \"Phone\",\n      \"value\": \"+81 90 7610 2507\"\n    },\n    {\n      \"label\": \"Signup channel\",\n      \"value\": \"mobile_app\"\n    },\n    {\n      \"label\": \"Market\",\n      \"value\": \"JP\"\n    },\n    {\n      \"label\": \"Preferred language\",\n      \"value\": \"Japanese\"\n    },\n    {\n      \"label\": \"Last contact\",\n      \"value\": \"24 Sep 2026 09:14 JST\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Overview\",\n    \"count_text\": \"Updated moments ago · 2 records\",\n    \"columns\": [\n      \"Order ID\",\n      \"Date\",\n      \"Item\",\n      \"Qty\",\n      \"Total\",\n      \"Status\"\n    ],\n    \"rows\": [\n      [\n        \"ORD-20265762\",\n        \"12 Sep 2026\",\n        \"Ceramic coffee set\",\n        \"1\",\n        \"JPY 8,900\",\n        \"Delivered · 18 Sep\"\n      ],\n      [\n        \"ORD-20265518\",\n        \"28 Aug 2026\",\n        \"Travel backpack\",\n        \"1\",\n        \"JPY 12,400\",\n        \"Returned · 03 Sep\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"Customer details\",\n    \"fields\": [\n      {\n        \"label\": \"Default address\",\n        \"value\": \"2-18-4 Kichijoji, Musashino, Tokyo 180-0004\"\n      },\n      {\n        \"label\": \"Loyalty tier\",\n        \"value\": \"Silver\"\n      },\n      {\n        \"label\": \"Support\",\n        \"value\": \"CS-8538 · support_9538\"\n      },\n      {\n        \"label\": \"Member since\",\n        \"value\": \"12 Jan 2024\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"24 Sep\",\n      \"text\": \"Customer replied to CS-8538\"\n    },\n    {\n      \"when\": \"22 Sep\",\n      \"text\": \"Support agent responded\"\n    },\n    {\n      \"when\": \"18 Sep\",\n      \"text\": \"Order ORD-20265762 delivered\"\n    },\n    {\n      \"when\": \"03 Sep\",\n      \"text\": \"Order ORD-20265518 returned\"\n    },\n    {\n      \"when\": \"28 Aug\",\n      \"text\": \"support_9538 created\"\n    }\n  ]\n}"
+}

@@ -1,0 +1,131 @@
+{
+ "result": {
+  "app_name": "Pulse Analytics",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / Pulse Analytics / Users",
+  "page_title": "Omar Darwish",
+  "page_badge": "Last 90 days",
+  "page_subtitle": "user_20 · analytics_7438 · darwish.omar@icloud.com",
+  "subject_person_name": "Omar Darwish",
+  "cards": [
+   {
+    "label": "Sessions",
+    "value": "12"
+   },
+   {
+    "label": "Products viewed",
+    "value": "19"
+   },
+   {
+    "label": "Completed orders",
+    "value": "2"
+   },
+   {
+    "label": "Revenue",
+    "value": "USD 167.42"
+   },
+   {
+    "label": "Mobile / Desktop",
+    "value": "67% / 33%"
+   },
+   {
+    "label": "Acquisition",
+    "value": "Organic search"
+   }
+  ],
+  "table": {
+   "title": "Event timeline",
+   "count_text": "Updated moments ago · 5 records",
+   "columns": [
+    "Time",
+    "Event",
+    "Product / detail",
+    "Value",
+    "Device"
+   ],
+   "rows": [
+    [
+     "14:22",
+     "Order completed",
+     "Ceramic coffee set",
+     "USD 84.21",
+     "Mobile"
+    ],
+    [
+     "14:20",
+     "Checkout started",
+     "2 items",
+     "USD 84.21",
+     "Mobile"
+    ],
+    [
+     "14:17",
+     "Product viewed",
+     "Ceramic coffee set",
+     "—",
+     "Mobile"
+    ],
+    [
+     "14:16",
+     "Added to cart",
+     "Ceramic coffee set",
+     "USD 42.00",
+     "Mobile"
+    ],
+    [
+     "14:12",
+     "Product viewed",
+     "Stoneware mug",
+     "USD 18.00",
+     "Desktop"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "Profile attributes",
+   "fields": [
+    {
+     "label": "Market",
+     "value": "AE"
+    },
+    {
+     "label": "Audience",
+     "value": "Returning shopper"
+    },
+    {
+     "label": "Interest",
+     "value": "Coffee & dining"
+    },
+    {
+     "label": "Last activity",
+     "value": "13 Jul 2026 14:22 UTC"
+    },
+    {
+     "label": "First seen",
+     "value": "21 Apr 2026 09:14 UTC"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "13 Jul",
+    "text": "6 events in active session"
+   },
+   {
+    "when": "08 Jul",
+    "text": "Order completed · USD 83.21"
+   },
+   {
+    "when": "30 Jun",
+    "text": "Product search · coffee set"
+   },
+   {
+    "when": "22 Jun",
+    "text": "Campaign opened"
+   }
+  ]
+ },
+ "input_tokens": 2629,
+ "output_tokens": 858,
+ "raw": "{\n  \"app_name\": \"Pulse Analytics\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / Pulse Analytics / Users\",\n  \"page_title\": \"Omar Darwish\",\n  \"page_badge\": \"Last 90 days\",\n  \"page_subtitle\": \"user_20 · analytics_7438 · darwish.omar@icloud.com\",\n  \"subject_person_name\": \"Omar Darwish\",\n  \"cards\": [\n    {\n      \"label\": \"Sessions\",\n      \"value\": \"12\"\n    },\n    {\n      \"label\": \"Products viewed\",\n      \"value\": \"19\"\n    },\n    {\n      \"label\": \"Completed orders\",\n      \"value\": \"2\"\n    },\n    {\n      \"label\": \"Revenue\",\n      \"value\": \"USD 167.42\"\n    },\n    {\n      \"label\": \"Mobile / Desktop\",\n      \"value\": \"67% / 33%\"\n    },\n    {\n      \"label\": \"Acquisition\",\n      \"value\": \"Organic search\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Event timeline\",\n    \"count_text\": \"Updated moments ago · 5 records\",\n    \"columns\": [\n      \"Time\",\n      \"Event\",\n      \"Product / detail\",\n      \"Value\",\n      \"Device\"\n    ],\n    \"rows\": [\n      [\n        \"14:22\",\n        \"Order completed\",\n        \"Ceramic coffee set\",\n        \"USD 84.21\",\n        \"Mobile\"\n      ],\n      [\n        \"14:20\",\n        \"Checkout started\",\n        \"2 items\",\n        \"USD 84.21\",\n        \"Mobile\"\n      ],\n      [\n        \"14:17\",\n        \"Product viewed\",\n        \"Ceramic coffee set\",\n        \"—\",\n        \"Mobile\"\n      ],\n      [\n        \"14:16\",\n        \"Added to cart\",\n        \"Ceramic coffee set\",\n        \"USD 42.00\",\n        \"Mobile\"\n      ],\n      [\n        \"14:12\",\n        \"Product viewed\",\n        \"Stoneware mug\",\n        \"USD 18.00\",\n        \"Desktop\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"Profile attributes\",\n    \"fields\": [\n      {\n        \"label\": \"Market\",\n        \"value\": \"AE\"\n      },\n      {\n        \"label\": \"Audience\",\n        \"value\": \"Returning shopper\"\n      },\n      {\n        \"label\": \"Interest\",\n        \"value\": \"Coffee & dining\"\n      },\n      {\n        \"label\": \"Last activity\",\n        \"value\": \"13 Jul 2026 14:22 UTC\"\n      },\n      {\n        \"label\": \"First seen\",\n        \"value\": \"21 Apr 2026 09:14 UTC\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"13 Jul\",\n      \"text\": \"6 events in active session\"\n    },\n    {\n      \"when\": \"08 Jul\",\n      \"text\": \"Order completed · USD 83.21\"\n    },\n    {\n      \"when\": \"30 Jun\",\n      \"text\": \"Product search · coffee set\"\n    },\n    {\n      \"when\": \"22 Jun\",\n      \"text\": \"Campaign opened\"\n    }\n  ]\n}"
+}

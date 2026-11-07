@@ -1,0 +1,99 @@
+{
+ "result": {
+  "app_name": "Northstar Shop",
+  "search_box": "Search references, orders, support cases or finance records...",
+  "breadcrumb": "Northstar Shop / Customer Reference Registry / Customer references",
+  "page_title": "user_17",
+  "page_badge": "Retained reference",
+  "page_subtitle": "Customer key · Account Platform · eu-west",
+  "subject_person_name": null,
+  "cards": [
+   {
+    "label": "Reference type",
+    "value": "Customer key"
+   },
+   {
+    "label": "Created",
+    "value": "11 Jan 2024 08:42 UTC"
+   },
+   {
+    "label": "Most recent update",
+    "value": "10 Mar 2026 07:18 UTC"
+   },
+   {
+    "label": "Owner team",
+    "value": "Account Platform"
+   }
+  ],
+  "table": {
+   "title": "Overview",
+   "count_text": "Updated moments ago · 4 records",
+   "columns": [
+    "System",
+    "Record reference",
+    "Relationship",
+    "Created (UTC)",
+    "Status"
+   ],
+   "rows": [
+    [
+     "Orders",
+     "ORD-20263245",
+     "Linked to customer",
+     "11 Jan 2024 08:45",
+     "Active"
+    ],
+    [
+     "Support",
+     "CS-3245",
+     "Linked to customer",
+     "14 Feb 2024 12:16",
+     "Active"
+    ],
+    [
+     "Support",
+     "CS-3378",
+     "Linked to customer",
+     "03 Jun 2024 09:27",
+     "Active"
+    ],
+    [
+     "Finance",
+     "FIN-7742",
+     "Linked to customer",
+     "22 Aug 2024 15:03",
+     "Active"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "History",
+   "fields": []
+  },
+  "activity": [
+   {
+    "when": "10 Mar 2026",
+    "text": "Metadata reviewed"
+   },
+   {
+    "when": "22 Aug 2024",
+    "text": "Finance link added"
+   },
+   {
+    "when": "03 Jun 2024",
+    "text": "Support link added"
+   },
+   {
+    "when": "14 Feb 2024",
+    "text": "Support link added"
+   },
+   {
+    "when": "11 Jan 2024",
+    "text": "Reference created"
+   }
+  ]
+ },
+ "input_tokens": 2517,
+ "output_tokens": 701,
+ "raw": "{\n  \"app_name\": \"Northstar Shop\",\n  \"search_box\": \"Search references, orders, support cases or finance records...\",\n  \"breadcrumb\": \"Northstar Shop / Customer Reference Registry / Customer references\",\n  \"page_title\": \"user_17\",\n  \"page_badge\": \"Retained reference\",\n  \"page_subtitle\": \"Customer key · Account Platform · eu-west\",\n  \"subject_person_name\": null,\n  \"cards\": [\n    {\n      \"label\": \"Reference type\",\n      \"value\": \"Customer key\"\n    },\n    {\n      \"label\": \"Created\",\n      \"value\": \"11 Jan 2024 08:42 UTC\"\n    },\n    {\n      \"label\": \"Most recent update\",\n      \"value\": \"10 Mar 2026 07:18 UTC\"\n    },\n    {\n      \"label\": \"Owner team\",\n      \"value\": \"Account Platform\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Overview\",\n    \"count_text\": \"Updated moments ago · 4 records\",\n    \"columns\": [\n      \"System\",\n      \"Record reference\",\n      \"Relationship\",\n      \"Created (UTC)\",\n      \"Status\"\n    ],\n    \"rows\": [\n      [\n        \"Orders\",\n        \"ORD-20263245\",\n        \"Linked to customer\",\n        \"11 Jan 2024 08:45\",\n        \"Active\"\n      ],\n      [\n        \"Support\",\n        \"CS-3245\",\n        \"Linked to customer\",\n        \"14 Feb 2024 12:16\",\n        \"Active\"\n      ],\n      [\n        \"Support\",\n        \"CS-3378\",\n        \"Linked to customer\",\n        \"03 Jun 2024 09:27\",\n        \"Active\"\n      ],\n      [\n        \"Finance\",\n        \"FIN-7742\",\n        \"Linked to customer\",\n        \"22 Aug 2024 15:03\",\n        \"Active\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"History\",\n    \"fields\": []\n  },\n  \"activity\": [\n    {\n      \"when\": \"10 Mar 2026\",\n      \"text\": \"Metadata reviewed\"\n    },\n    {\n      \"when\": \"22 Aug 2024\",\n      \"text\": \"Finance link added\"\n    },\n    {\n      \"when\": \"03 Jun 2024\",\n      \"text\": \"Support link added\"\n    },\n    {\n      \"when\": \"14 Feb 2024\",\n      \"text\": \"Support link added\"\n    },\n    {\n      \"when\": \"11 Jan 2024\",\n      \"text\": \"Reference created\"\n    }\n  ]\n}"
+}

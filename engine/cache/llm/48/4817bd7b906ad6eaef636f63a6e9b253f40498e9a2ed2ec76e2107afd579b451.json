@@ -1,0 +1,129 @@
+{
+ "result": {
+  "app_name": "Northstar Shop",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / BridgeOps / Connections",
+  "page_title": "Connections",
+  "page_badge": "12 connectors",
+  "page_subtitle": "PRODUCTION · eu-west · 07 Aug 2026 08:00 UTC",
+  "subject_person_name": null,
+  "cards": [
+   {
+    "label": "Healthy",
+    "value": "12"
+   },
+   {
+    "label": "Events / hour",
+    "value": "4,113"
+   },
+   {
+    "label": "Delivery p95",
+    "value": "1.8 s"
+   },
+   {
+    "label": "Backlog",
+    "value": "18"
+   },
+   {
+    "label": "Destination health",
+    "value": "Healthy"
+   }
+  ],
+  "table": {
+   "title": "Topology",
+   "count_text": "Updated moments ago · 4 records",
+   "columns": [
+    "Connector",
+    "Destination",
+    "Selector",
+    "Mode",
+    "Events/hour",
+    "Last contact"
+   ],
+   "rows": [
+    [
+     "data_flow_1121",
+     "customer_analytics_warehouse",
+     "jain.aditi@gmail.com",
+     "Continuous",
+     "1,284",
+     "07:59:42"
+    ],
+    [
+     "data_flow_9846",
+     "customer_analytics_warehouse",
+     "lucia-torres@gmail.com",
+     "Continuous",
+     "842",
+     "07:59:36"
+    ],
+    [
+     "Order notifications",
+     "notification_service",
+     "order events",
+     "Continuous",
+     "650",
+     "07:59:28"
+    ],
+    [
+     "Delivery tracking",
+     "logistics_warehouse",
+     "shipment events",
+     "Continuous",
+     "420",
+     "07:59:13"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "data_flow_1121",
+   "fields": [
+    {
+     "label": "Status",
+     "value": "Healthy"
+    },
+    {
+     "label": "Owner",
+     "value": "Data Platform"
+    },
+    {
+     "label": "Destination",
+     "value": "customer_analytics_warehouse"
+    },
+    {
+     "label": "Selector",
+     "value": "jain.aditi@gmail.com"
+    },
+    {
+     "label": "Sync mode",
+     "value": "Continuous sync"
+    },
+    {
+     "label": "Last response",
+     "value": "200 OK · 1.8 s"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "07:59:42",
+    "text": "124 events delivered"
+   },
+   {
+    "when": "07:58:10",
+    "text": "checkpoint committed"
+   },
+   {
+    "when": "07:56:44",
+    "text": "18 events retried"
+   },
+   {
+    "when": "07:55:02",
+    "text": "destination acknowledged batch"
+   }
+  ]
+ },
+ "input_tokens": 2629,
+ "output_tokens": 859,
+ "raw": "{\n  \"app_name\": \"Northstar Shop\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / BridgeOps / Connections\",\n  \"page_title\": \"Connections\",\n  \"page_badge\": \"12 connectors\",\n  \"page_subtitle\": \"PRODUCTION · eu-west · 07 Aug 2026 08:00 UTC\",\n  \"subject_person_name\": null,\n  \"cards\": [\n    {\n      \"label\": \"Healthy\",\n      \"value\": \"12\"\n    },\n    {\n      \"label\": \"Events / hour\",\n      \"value\": \"4,113\"\n    },\n    {\n      \"label\": \"Delivery p95\",\n      \"value\": \"1.8 s\"\n    },\n    {\n      \"label\": \"Backlog\",\n      \"value\": \"18\"\n    },\n    {\n      \"label\": \"Destination health\",\n      \"value\": \"Healthy\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Topology\",\n    \"count_text\": \"Updated moments ago · 4 records\",\n    \"columns\": [\n      \"Connector\",\n      \"Destination\",\n      \"Selector\",\n      \"Mode\",\n      \"Events/hour\",\n      \"Last contact\"\n    ],\n    \"rows\": [\n      [\n        \"data_flow_1121\",\n        \"customer_analytics_warehouse\",\n        \"jain.aditi@gmail.com\",\n        \"Continuous\",\n        \"1,284\",\n        \"07:59:42\"\n      ],\n      [\n        \"data_flow_9846\",\n        \"customer_analytics_warehouse\",\n        \"lucia-torres@gmail.com\",\n        \"Continuous\",\n        \"842\",\n        \"07:59:36\"\n      ],\n      [\n        \"Order notifications\",\n        \"notification_service\",\n        \"order events\",\n        \"Continuous\",\n        \"650\",\n        \"07:59:28\"\n      ],\n      [\n        \"Delivery tracking\",\n        \"logistics_warehouse\",\n        \"shipment events\",\n        \"Continuous\",\n        \"420\",\n        \"07:59:13\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"data_flow_1121\",\n    \"fields\": [\n      {\n        \"label\": \"Status\",\n        \"value\": \"Healthy\"\n      },\n      {\n        \"label\": \"Owner\",\n        \"value\": \"Data Platform\"\n      },\n      {\n        \"label\": \"Destination\",\n        \"value\": \"customer_analytics_warehouse\"\n      },\n      {\n        \"label\": \"Selector\",\n        \"value\": \"jain.aditi@gmail.com\"\n      },\n      {\n        \"label\": \"Sync mode\",\n        \"value\": \"Continuous sync\"\n      },\n      {\n        \"label\": \"Last response\",\n        \"value\": \"200 OK · 1.8 s\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"07:59:42\",\n      \"text\": \"124 events delivered\"\n    },\n    {\n      \"when\": \"07:58:10\",\n      \"text\": \"checkpoint committed\"\n    },\n    {\n      \"when\": \"07:56:44\",\n      \"text\": \"18 events retried\"\n    },\n    {\n      \"when\": \"07:55:02\",\n      \"text\": \"destination acknowledged batch\"\n    }\n  ]\n}"
+}

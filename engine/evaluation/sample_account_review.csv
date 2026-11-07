@@ -1,0 +1,5 @@
+case_id,reason,candidate_accounts,evidence_ids,reviewer_check,review_status
+case_04,ACCOUNT_NOT_FOUND,,,Confirm which account_* profile belonged to the requester; no participant-visible record links one.,PENDING
+case_23,AMBIGUOUS_ACCOUNT_LINK,account_410 account_7015 account_9155,activity_3660 activity_3662 activity_3663,Confirm which candidate profile belonged to the requester; the deletion batch holds several equally plausible ones.,PENDING
+case_28,AMBIGUOUS_ACCOUNT_LINK,account_5482 account_7012,activity_3529 activity_3532,Confirm which candidate profile belonged to the requester; the deletion batch holds several equally plausible ones.,PENDING
+case_29,AMBIGUOUS_ACCOUNT_LINK,account_5482 account_7012,activity_3529 activity_3532,Confirm which candidate profile belonged to the requester; the deletion batch holds several equally plausible ones.,PENDING

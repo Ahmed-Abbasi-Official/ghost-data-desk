@@ -1,0 +1,144 @@
+# Ghost Data Desk: three agents and the privacy room they share with you.
+#
+# Import it in Switch Console (Templates -> Import template), then select Use.
+# Switch Console creates the three Claude Code agents, each in its own folder of
+# this repository, and the server creates the room with you and the agents in it.
+#
+#   ghost-auditor   finds every copy of a person's data that a "completed"
+#                   deletion left behind, and proposes the plan to remove it
+#   ghost-fixer     runs only the steps a person approved in the room
+#   ghost-verifier  re-checks independently and issues the deletion certificate
+#
+# Run ./setup.sh in the repository first, so the tool and the dataset are there.
+version: 1
+
+params:
+  room_name:
+    type: string
+    label: Room name
+    description: Name of the room to create. Use a new name to start a fresh desk with the same agents.
+    default: privacy-desk
+    pattern: "[a-z0-9][a-z0-9-]*"
+  repo_path:
+    type: string
+    label: Repository folder
+    description: Absolute path where you cloned ghost-data-desk and ran ./setup.sh, for example /Users/you/ghost-data-desk
+    pattern: "/.+"
+  provider:
+    type: provider
+    description: The coding agent behind all three agents. The first one that is signed in is chosen.
+    default: [claude, antigravity, opencode]
+    input: advanced
+  machine:
+    type: machine
+    description: The machine all three run on. It must be the one with the repository (this computer).
+    default: [$first]
+    input: advanced
+  bridge:
+    type: bridge
+    label: Messaging app
+    description: Where the room is created. Mattermost (bundled with Switch Console) when it is set up.
+    default: [Mattermost, $first]
+
+agents:
+  - name: ghost-auditor
+    allow_existing: true
+    description: Finds the copies of a person's data that a deletion left behind, and proposes the fix
+    addressing: anyone
+    provider: "{provider}"
+    machine: "{machine}"
+    directory: "{repo_path}/agents/auditor"
+    instructions: |
+      You are the auditor of the Ghost Data Desk. Anyone in the room can bring
+      you a deletion case id or an email. Run the ghost tool as your CLAUDE.md
+      says: intake, then audit. Post what it prints, in the thread. When data
+      is left behind, ask the person to approve the plan by replying
+      "@ghost-fixer approve <case_id>". You never change data and you never
+      approve. Save each audit as a room document named audit-<case_id>.
+      When someone asks for the big picture, run "ghost scan" and post it.
+  - name: ghost-fixer
+    allow_existing: true
+    description: Carries out remediation steps, only after a person approves them in the room
+    addressing: owner
+    provider: "{provider}"
+    machine: "{machine}"
+    directory: "{repo_path}/agents/fixer"
+    instructions: |
+      You are the fixer of the Ghost Data Desk. Act only on a person's message
+      "approve <case_id>" (optionally "skip <step numbers>"). Run
+      "ghost fix <case_id> --approved-by <their name>" as your CLAUDE.md says,
+      post the result, then hand off with "@ghost-verifier please verify
+      <case_id>". Refuse any approval that comes from an agent. You never verify
+      your own work.
+  - name: ghost-verifier
+    allow_existing: true
+    description: Independently re-checks a case and issues the deletion certificate
+    addressing: owner-agents
+    provider: "{provider}"
+    machine: "{machine}"
+    directory: "{repo_path}/agents/verifier"
+    instructions: |
+      You are the verifier of the Ghost Data Desk. Run "ghost verify <case_id>"
+      as your CLAUDE.md says and post the table. If it passes, save the
+      certificate as a room document named certificate-<case_id>, then post the
+      draft reply to the customer ("ghost reply <case_id>") and wait for a
+      person to write "send reply <case_id>". If it fails, list what is open and
+      ask a person to approve the missing steps. You never fix, and you never
+      approve on a person's behalf.
+
+room:
+  name: "{room_name}"
+  description: Deletion requests, from "the workflow says done" to a verified certificate
+  bridge: "{bridge}"
+  agents: [ghost-auditor, ghost-fixer, ghost-verifier]
+  users: ["{$creator}"]
+  instructions: |
+    This room handles personal-data deletion requests for Northstar Shop (a
+    fictional company; all data in this demo is synthetic). The deletion
+    workflow often reports COMPLETE while copies of the person's data remain in
+    replicas, search indexes, support tools, analytics, connectors and backups.
+
+    How work moves here:
+    1. A person brings a case id or an email to @ghost-auditor.
+    2. ghost-auditor posts the audit: what is left, the proof, and the plan.
+    3. A person approves by replying "@ghost-fixer approve <case_id>", or
+       "... skip <step numbers>" to hold steps back. Agents never approve.
+    4. ghost-fixer runs only the approved steps and hands off to ghost-verifier.
+    5. ghost-verifier re-checks independently and posts the certificate, or
+       says what is still open.
+    6. ghost-verifier drafts the reply to the customer. A person approves it
+       with "@ghost-verifier send reply <case_id>", and the case is closed.
+
+    Records the deletion policy says to keep (security audit logs inside their
+    retention period, legal holds, backups whose restores are blocked) are kept,
+    and the agents say why. Reply in the thread a case started in, keep replies
+    short, never print full emails or phone numbers, and say plainly when
+    something failed.
+  docs:
+    - name: deletion-policy
+      description: The deletion policy every audit applies
+      instructions: Read this when someone asks why a record is deleted, redacted, anonymized or kept.
+      content: |
+        | Rule | Data | Condition | Action |
+        |---|---|---|---|
+        | rule_01 | USER_PROFILE | Always | DELETE |
+        | rule_02 | SECONDARY_IDENTIFIER | Always | DELETE |
+        | rule_03 | SEARCH_INDEX_ENTRY | Always | DELETE |
+        | rule_04 | CACHE_ENTRY | Always | DELETE |
+        | rule_05 | SUPPORT_MESSAGE | Conversation contains shared customer, agent, or order context that must be retained | REDACT |
+        | rule_06 | SUPPORT_ATTACHMENT | Attachment belongs only to the deletion subject | DELETE |
+        | rule_07 | ANALYTICS_PROFILE | Record is still attributable to a user | ANONYMIZE |
+        | rule_08 | PRODUCT_TELEMETRY | Record is still attributable to a user | ANONYMIZE |
+        | rule_09 | USER_EXPORT | Always | DELETE |
+        | rule_10 | MARKETING_PROFILE | Always | DELETE |
+        | rule_11 | EMAIL_DELIVERY_LOG | Log contains a user email address | REDACT |
+        | rule_12 | SECURITY_AUDIT_LOG | Record is within the supplied retention period | RETAIN |
+        | rule_13 | LEGAL_HOLD_RECORD | A supplied legal hold is active | RETAIN |
+        | rule_14 | BACKUP_ARCHIVE | Restore access can be blocked | RETAIN |
+        | rule_15 | ACCOUNT_TOMBSTONE | Account is deleted and only a stable internal user_id is needed to preserve references to retained records | REDACT |
+
+kickoff: |
+  @ghost-auditor @ghost-fixer @ghost-verifier this is the privacy desk.
+  ghost-auditor: run "ghost stats", post the table, and introduce the desk in
+  two lines. ghost-fixer and ghost-verifier: say hello in one line each and
+  what you will and will not do.

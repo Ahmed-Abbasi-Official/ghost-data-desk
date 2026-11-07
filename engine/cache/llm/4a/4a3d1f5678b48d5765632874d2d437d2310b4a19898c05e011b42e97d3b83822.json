@@ -1,0 +1,13 @@
+{
+ "result": {
+  "labels": [
+   {
+    "i": 1,
+    "label": "NOT_APPLICABLE"
+   }
+  ]
+ },
+ "input_tokens": 169,
+ "output_tokens": 19,
+ "raw": "{\"labels\": [{\"i\": 1, \"label\": \"NOT_APPLICABLE\"}]}"
+}

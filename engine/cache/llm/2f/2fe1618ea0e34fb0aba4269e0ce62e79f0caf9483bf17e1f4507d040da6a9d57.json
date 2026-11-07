@@ -1,0 +1,152 @@
+{
+ "result": {
+  "app_name": "Northstar Shop",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / Sentinel / Account events",
+  "page_title": "Account events",
+  "page_badge": "6 signed events",
+  "page_subtitle": "Subject filter: user_03 · 18-26 Aug 2026 UTC",
+  "subject_person_name": null,
+  "cards": [
+   {
+    "label": "Events",
+    "value": "6"
+   },
+   {
+    "label": "Categories",
+    "value": "5"
+   },
+   {
+    "label": "Integrity failures",
+    "value": "0"
+   },
+   {
+    "label": "Partition",
+    "value": "2026-Q3"
+   }
+  ],
+  "table": {
+   "title": "Events (6)",
+   "count_text": "Updated moments ago · 6 records",
+   "columns": [
+    "Time (UTC)",
+    "Event",
+    "Category",
+    "Subject",
+    "Actor",
+    "Integrity",
+    "Reference"
+   ],
+   "rows": [
+    [
+     "25 Aug 04:03",
+     "Account closure recorded",
+     "Account lifecycle",
+     "user_03",
+     "Automated workflow",
+     "Valid",
+     "audit_record_003"
+    ],
+    [
+     "25 Aug 03:21",
+     "Session revoked",
+     "Session management",
+     "user_03",
+     "Security system",
+     "Valid",
+     "audit_record_002"
+    ],
+    [
+     "24 Aug 16:14",
+     "Recovery challenge completed",
+     "Authentication",
+     "user_03",
+     "User (self)",
+     "Valid",
+     "audit_record_001"
+    ],
+    [
+     "22 Aug 11:27",
+     "Email change confirmed",
+     "Profile update",
+     "user_03",
+     "User (self)",
+     "Valid",
+     "audit_record_006"
+    ],
+    [
+     "20 Aug 09:42",
+     "Login from new device",
+     "Authentication",
+     "user_03",
+     "User (self)",
+     "Valid",
+     "audit_record_005"
+    ],
+    [
+     "18 Aug 14:05",
+     "Password changed",
+     "Authentication",
+     "user_03",
+     "User (self)",
+     "Valid",
+     "audit_record_004"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "audit_record_003 · Raw event",
+   "fields": [
+    {
+     "label": "event_type",
+     "value": "account_closure_recorded"
+    },
+    {
+     "label": "subject",
+     "value": "user_03"
+    },
+    {
+     "label": "actor",
+     "value": "automated account workflow"
+    },
+    {
+     "label": "recorded_at",
+     "value": "2026-08-25T04:03:00Z"
+    },
+    {
+     "label": "fingerprint",
+     "value": "8f0c...31ad"
+    },
+    {
+     "label": "signature",
+     "value": "Valid"
+    },
+    {
+     "label": "journal",
+     "value": "2026-Q3"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "25 Aug",
+    "text": "Account closure recorded"
+   },
+   {
+    "when": "25 Aug",
+    "text": "Session revoked"
+   },
+   {
+    "when": "24 Aug",
+    "text": "Recovery challenge completed"
+   },
+   {
+    "when": "22 Aug",
+    "text": "Email change confirmed"
+   }
+  ]
+ },
+ "input_tokens": 2517,
+ "output_tokens": 1005,
+ "raw": "{\n  \"app_name\": \"Northstar Shop\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / Sentinel / Account events\",\n  \"page_title\": \"Account events\",\n  \"page_badge\": \"6 signed events\",\n  \"page_subtitle\": \"Subject filter: user_03 · 18-26 Aug 2026 UTC\",\n  \"subject_person_name\": null,\n  \"cards\": [\n    {\n      \"label\": \"Events\",\n      \"value\": \"6\"\n    },\n    {\n      \"label\": \"Categories\",\n      \"value\": \"5\"\n    },\n    {\n      \"label\": \"Integrity failures\",\n      \"value\": \"0\"\n    },\n    {\n      \"label\": \"Partition\",\n      \"value\": \"2026-Q3\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Events (6)\",\n    \"count_text\": \"Updated moments ago · 6 records\",\n    \"columns\": [\n      \"Time (UTC)\",\n      \"Event\",\n      \"Category\",\n      \"Subject\",\n      \"Actor\",\n      \"Integrity\",\n      \"Reference\"\n    ],\n    \"rows\": [\n      [\n        \"25 Aug 04:03\",\n        \"Account closure recorded\",\n        \"Account lifecycle\",\n        \"user_03\",\n        \"Automated workflow\",\n        \"Valid\",\n        \"audit_record_003\"\n      ],\n      [\n        \"25 Aug 03:21\",\n        \"Session revoked\",\n        \"Session management\",\n        \"user_03\",\n        \"Security system\",\n        \"Valid\",\n        \"audit_record_002\"\n      ],\n      [\n        \"24 Aug 16:14\",\n        \"Recovery challenge completed\",\n        \"Authentication\",\n        \"user_03\",\n        \"User (self)\",\n        \"Valid\",\n        \"audit_record_001\"\n      ],\n      [\n        \"22 Aug 11:27\",\n        \"Email change confirmed\",\n        \"Profile update\",\n        \"user_03\",\n        \"User (self)\",\n        \"Valid\",\n        \"audit_record_006\"\n      ],\n      [\n        \"20 Aug 09:42\",\n        \"Login from new device\",\n        \"Authentication\",\n        \"user_03\",\n        \"User (self)\",\n        \"Valid\",\n        \"audit_record_005\"\n      ],\n      [\n        \"18 Aug 14:05\",\n        \"Password changed\",\n        \"Authentication\",\n        \"user_03\",\n        \"User (self)\",\n        \"Valid\",\n        \"audit_record_004\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"audit_record_003 · Raw event\",\n    \"fields\": [\n      {\n        \"label\": \"event_type\",\n        \"value\": \"account_closure_recorded\"\n      },\n      {\n        \"label\": \"subject\",\n        \"value\": \"user_03\"\n      },\n      {\n        \"label\": \"actor\",\n        \"value\": \"automated account workflow\"\n      },\n      {\n        \"label\": \"recorded_at\",\n        \"value\": \"2026-08-25T04:03:00Z\"\n      },\n      {\n        \"label\": \"fingerprint\",\n        \"value\": \"8f0c...31ad\"\n      },\n      {\n        \"label\": \"signature\",\n        \"value\": \"Valid\"\n      },\n      {\n        \"label\": \"journal\",\n        \"value\": \"2026-Q3\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"25 Aug\",\n      \"text\": \"Account closure recorded\"\n    },\n    {\n      \"when\": \"25 Aug\",\n      \"text\": \"Session revoked\"\n    },\n    {\n      \"when\": \"24 Aug\",\n      \"text\": \"Recovery challenge completed\"\n    },\n    {\n      \"when\": \"22 Aug\",\n      \"text\": \"Email change confirmed\"\n    }\n  ]\n}"
+}

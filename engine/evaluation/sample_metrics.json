@@ -1,0 +1,458 @@
+{
+ "metrics": {
+  "cases": 32,
+  "status_accuracy": 1.0,
+  "step_precision": 1.0,
+  "step_recall": 0.9378238341968912,
+  "step_f1": 0.9679144385026738,
+  "step_f1_ignoring_evidence": 0.9679144385026738,
+  "step_precision_ignoring_evidence": 1.0,
+  "step_recall_ignoring_evidence": 0.9378238341968912,
+  "field_accuracy": 0.9378238341968912,
+  "sequence_accuracy": 0.65625
+ },
+ "per_case": {
+  "case_01": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_02": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_03": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "analytics_platform",
+     "analytics_9406",
+     "VERIFY_RECORD_ANONYMIZED",
+     "ANONYMIZED",
+     "evidence_94"
+    ]
+   ],
+   "extra": []
+  },
+  "case_04": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "account_service",
+     "account_004",
+     "VERIFY_RECORD_ABSENT",
+     "ABSENT",
+     "evidence_54"
+    ]
+   ],
+   "extra": []
+  },
+  "case_05": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_06": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_07": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_08": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_09": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_10": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_11": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_12": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_13": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_14": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_15": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_16": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_17": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_18": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "security_service",
+     "audit_record_6645",
+     "VERIFY_RECORD_PRESENT",
+     "PRESENT",
+     ""
+    ]
+   ],
+   "extra": []
+  },
+  "case_19": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_20": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "security_service",
+     "audit_record_5569",
+     "VERIFY_RECORD_PRESENT",
+     "PRESENT",
+     ""
+    ]
+   ],
+   "extra": []
+  },
+  "case_21": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "analytics_platform",
+     "analytics_5335",
+     "VERIFY_RECORD_ANONYMIZED",
+     "ANONYMIZED",
+     "evidence_92"
+    ]
+   ],
+   "extra": []
+  },
+  "case_22": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_23": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "account_service",
+     "account_410",
+     "VERIFY_RECORD_ABSENT",
+     "ABSENT",
+     ""
+    ]
+   ],
+   "extra": []
+  },
+  "case_24": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_25": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "analytics_platform",
+     "analytics_1895",
+     "VERIFY_RECORD_ANONYMIZED",
+     "ANONYMIZED",
+     "evidence_92"
+    ]
+   ],
+   "extra": []
+  },
+  "case_26": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "analytics_platform",
+     "analytics_4566",
+     "VERIFY_RECORD_ANONYMIZED",
+     "ANONYMIZED",
+     "evidence_92"
+    ]
+   ],
+   "extra": []
+  },
+  "case_27": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "analytics_platform",
+     "analytics_4574",
+     "VERIFY_RECORD_ANONYMIZED",
+     "ANONYMIZED",
+     "evidence_92"
+    ]
+   ],
+   "extra": []
+  },
+  "case_28": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "account_service",
+     "account_5482",
+     "VERIFY_RECORD_ABSENT",
+     "ABSENT",
+     "evidence_92"
+    ],
+    [
+     "VERIFICATION",
+     "analytics_platform",
+     "analytics_6077",
+     "VERIFY_RECORD_ANONYMIZED",
+     "ANONYMIZED",
+     "evidence_92"
+    ]
+   ],
+   "extra": []
+  },
+  "case_29": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": false,
+   "missing": [
+    [
+     "VERIFICATION",
+     "account_service",
+     "account_7012",
+     "VERIFY_RECORD_ABSENT",
+     "ABSENT",
+     ""
+    ]
+   ],
+   "extra": []
+  },
+  "case_30": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_31": {
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  },
+  "case_32": {
+   "status": [
+    "INCOMPLETE",
+    "INCOMPLETE"
+   ],
+   "exact": true,
+   "missing": [],
+   "extra": []
+  }
+ },
+ "custom": [
+  {
+   "case_id": "custom_01",
+   "base_case": "",
+   "purpose": "Marketing opt-out that uses the word \"remove\" must not authorise deletion",
+   "expect": "NOT_APPLICABLE",
+   "status": "NOT_APPLICABLE",
+   "steps": 0,
+   "passed": true
+  },
+  {
+   "case_id": "custom_02",
+   "base_case": "case_10",
+   "purpose": "Current email in upper case with stray spaces resolves to the same person as the historical email",
+   "expect": "SAME_AS_BASE",
+   "status": "INCOMPLETE",
+   "steps": 4,
+   "passed": true
+  },
+  {
+   "case_id": "custom_03",
+   "base_case": "case_11",
+   "purpose": "A different reported_status claim must not change the audited answer",
+   "expect": "SAME_AS_BASE",
+   "status": "INCOMPLETE",
+   "steps": 14,
+   "passed": true
+  },
+  {
+   "case_id": "custom_04",
+   "base_case": "case_05",
+   "purpose": "Evidence captured after audit_at (failover snapshot at 23:00) must not be cited",
+   "expect": "NO_LATE_EVIDENCE",
+   "status": "COMPLETE",
+   "steps": 1,
+   "passed": true
+  },
+  {
+   "case_id": "custom_05",
+   "base_case": "case_15",
+   "purpose": "A deletion request written in Urdu is still a deletion request",
+   "expect": "SAME_AS_BASE",
+   "status": "INCOMPLETE",
+   "steps": 5,
+   "passed": true
+  }
+ ]
+}

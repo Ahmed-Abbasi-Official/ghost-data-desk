@@ -1,0 +1,148 @@
+{
+ "result": {
+  "app_name": "Nimbus Object Storage",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / Nimbus Object Storage / northstar-customer-data",
+  "page_title": "northstar-customer-data",
+  "page_badge": "8 objects",
+  "page_subtitle": "eu-west-1 / support-attachments / 2026 / 02",
+  "subject_person_name": null,
+  "cards": [
+   {
+    "label": "Account",
+    "value": "Northstar Production"
+   },
+   {
+    "label": "Region",
+    "value": "eu-west-1"
+   },
+   {
+    "label": "Captured",
+    "value": "13 Feb 2026 08:00 UTC"
+   },
+   {
+    "label": "Storage class",
+    "value": "All"
+   }
+  ],
+  "table": {
+   "title": "Objects",
+   "count_text": "Updated moments ago · 8 records",
+   "columns": [
+    "Name",
+    "Size",
+    "Modified (UTC)",
+    "Storage class",
+    "Version"
+   ],
+   "rows": [
+    [
+     "delivery_confirmation_19.pdf",
+     "684 KB",
+     "12 Feb 18:42",
+     "Standard",
+     "v3"
+    ],
+    [
+     "delivery_confirmation_20.pdf",
+     "712 KB",
+     "11 Feb 14:17",
+     "Standard",
+     "v1"
+    ],
+    [
+     "return_label_4821.pdf",
+     "203 KB",
+     "10 Feb 09:33",
+     "Standard",
+     "v1"
+    ],
+    [
+     "return_label_4876.pdf",
+     "198 KB",
+     "11 Feb 16:05",
+     "Standard",
+     "v2"
+    ],
+    [
+     "invoice_NS-10493.pdf",
+     "318 KB",
+     "10 Feb 11:21",
+     "Standard",
+     "v1"
+    ],
+    [
+     "parcel_damage_7713.jpg",
+     "2.4 MB",
+     "12 Feb 10:08",
+     "Standard",
+     "v1"
+    ],
+    [
+     "customer_export_2026-02-10.zip",
+     "128 MB",
+     "10 Feb 23:14",
+     "Standard",
+     "v1"
+    ],
+    [
+     "customer_export_2026-02-12.zip",
+     "131 MB",
+     "12 Feb 21:56",
+     "Standard",
+     "v1"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "delivery_confirmation_19.pdf",
+   "fields": [
+    {
+     "label": "Size",
+     "value": "684 KB"
+    },
+    {
+     "label": "Version",
+     "value": "v3"
+    },
+    {
+     "label": "Content type",
+     "value": "application/pdf"
+    },
+    {
+     "label": "Encryption",
+     "value": "AES-256"
+    },
+    {
+     "label": "Checksum",
+     "value": "e71b6d..."
+    },
+    {
+     "label": "Uploader",
+     "value": "support-service"
+    },
+    {
+     "label": "Modified",
+     "value": "12 Feb 2026 18:42 UTC"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "v3",
+    "text": "12 Feb 18:42 · metadata update"
+   },
+   {
+    "when": "v2",
+    "text": "12 Feb 18:39 · upload complete"
+   },
+   {
+    "when": "v1",
+    "text": "12 Feb 18:38 · object created"
+   }
+  ]
+ },
+ "input_tokens": 2629,
+ "output_tokens": 1034,
+ "raw": "{\n  \"app_name\": \"Nimbus Object Storage\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / Nimbus Object Storage / northstar-customer-data\",\n  \"page_title\": \"northstar-customer-data\",\n  \"page_badge\": \"8 objects\",\n  \"page_subtitle\": \"eu-west-1 / support-attachments / 2026 / 02\",\n  \"subject_person_name\": null,\n  \"cards\": [\n    {\n      \"label\": \"Account\",\n      \"value\": \"Northstar Production\"\n    },\n    {\n      \"label\": \"Region\",\n      \"value\": \"eu-west-1\"\n    },\n    {\n      \"label\": \"Captured\",\n      \"value\": \"13 Feb 2026 08:00 UTC\"\n    },\n    {\n      \"label\": \"Storage class\",\n      \"value\": \"All\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Objects\",\n    \"count_text\": \"Updated moments ago · 8 records\",\n    \"columns\": [\n      \"Name\",\n      \"Size\",\n      \"Modified (UTC)\",\n      \"Storage class\",\n      \"Version\"\n    ],\n    \"rows\": [\n      [\n        \"delivery_confirmation_19.pdf\",\n        \"684 KB\",\n        \"12 Feb 18:42\",\n        \"Standard\",\n        \"v3\"\n      ],\n      [\n        \"delivery_confirmation_20.pdf\",\n        \"712 KB\",\n        \"11 Feb 14:17\",\n        \"Standard\",\n        \"v1\"\n      ],\n      [\n        \"return_label_4821.pdf\",\n        \"203 KB\",\n        \"10 Feb 09:33\",\n        \"Standard\",\n        \"v1\"\n      ],\n      [\n        \"return_label_4876.pdf\",\n        \"198 KB\",\n        \"11 Feb 16:05\",\n        \"Standard\",\n        \"v2\"\n      ],\n      [\n        \"invoice_NS-10493.pdf\",\n        \"318 KB\",\n        \"10 Feb 11:21\",\n        \"Standard\",\n        \"v1\"\n      ],\n      [\n        \"parcel_damage_7713.jpg\",\n        \"2.4 MB\",\n        \"12 Feb 10:08\",\n        \"Standard\",\n        \"v1\"\n      ],\n      [\n        \"customer_export_2026-02-10.zip\",\n        \"128 MB\",\n        \"10 Feb 23:14\",\n        \"Standard\",\n        \"v1\"\n      ],\n      [\n        \"customer_export_2026-02-12.zip\",\n        \"131 MB\",\n        \"12 Feb 21:56\",\n        \"Standard\",\n        \"v1\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"delivery_confirmation_19.pdf\",\n    \"fields\": [\n      {\n        \"label\": \"Size\",\n        \"value\": \"684 KB\"\n      },\n      {\n        \"label\": \"Version\",\n        \"value\": \"v3\"\n      },\n      {\n        \"label\": \"Content type\",\n        \"value\": \"application/pdf\"\n      },\n      {\n        \"label\": \"Encryption\",\n        \"value\": \"AES-256\"\n      },\n      {\n        \"label\": \"Checksum\",\n        \"value\": \"e71b6d...\"\n      },\n      {\n        \"label\": \"Uploader\",\n        \"value\": \"support-service\"\n      },\n      {\n        \"label\": \"Modified\",\n        \"value\": \"12 Feb 2026 18:42 UTC\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"v3\",\n      \"text\": \"12 Feb 18:42 · metadata update\"\n    },\n    {\n      \"when\": \"v2\",\n      \"text\": \"12 Feb 18:39 · upload complete\"\n    },\n    {\n      \"when\": \"v1\",\n      \"text\": \"12 Feb 18:38 · object created\"\n    }\n  ]\n}"
+}

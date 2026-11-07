@@ -1,0 +1,110 @@
+{
+ "result": {
+  "app_name": "Northstar Shop",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / Audience Operations / Audience Operations",
+  "page_title": "Soo-jin Park",
+  "page_badge": "Live",
+  "page_subtitle": "marketing_001 · sj.park@naver.com · +82 10-5837-9451",
+  "subject_person_name": "Soo-jin Park",
+  "cards": [
+   {
+    "label": "Market",
+    "value": "South Korea"
+   },
+   {
+    "label": "Language",
+    "value": "Korean"
+   },
+   {
+    "label": "Email opt-in",
+    "value": "Yes"
+   },
+   {
+    "label": "SMS opt-in",
+    "value": "No"
+   },
+   {
+    "label": "Last refreshed",
+    "value": "15 Sep 2026 23:40 UTC"
+   }
+  ],
+  "table": {
+   "title": "Profile",
+   "count_text": "Updated moments ago · 4 records",
+   "columns": [
+    "Time",
+    "Activity",
+    "Detail"
+   ],
+   "rows": [
+    [
+     "23:40",
+     "Product-category update",
+     "Desk accessories · Drinkware"
+    ],
+    [
+     "23:38",
+     "Campaign eligibility check",
+     "Autumn offers · Eligible"
+    ],
+    [
+     "23:35",
+     "Profile refresh",
+     "Live profile fields updated"
+    ],
+    [
+     "23:32",
+     "Audience evaluation",
+     "Returning customers — East Asia"
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "Audience membership",
+   "fields": [
+    {
+     "label": "Audience",
+     "value": "Returning customers — East Asia"
+    },
+    {
+     "label": "Segments",
+     "value": "Repeat customer · Home & lifestyle · Mobile shopper"
+    },
+    {
+     "label": "Preferred categories",
+     "value": "Desk accessories · Drinkware"
+    },
+    {
+     "label": "Last campaign",
+     "value": "Autumn offers"
+    },
+    {
+     "label": "Open rate",
+     "value": "32.4%"
+    },
+    {
+     "label": "Click rate",
+     "value": "6.8%"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "Autumn offers",
+    "text": "32.4% open rate"
+   },
+   {
+    "when": "Home & Lifestyle Picks",
+    "text": "28.7% open rate"
+   },
+   {
+    "when": "Profile refreshed from live data",
+    "text": "Recorded"
+   }
+  ]
+ },
+ "input_tokens": 1976,
+ "output_tokens": 726,
+ "raw": "{\n  \"app_name\": \"Northstar Shop\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / Audience Operations / Audience Operations\",\n  \"page_title\": \"Soo-jin Park\",\n  \"page_badge\": \"Live\",\n  \"page_subtitle\": \"marketing_001 · sj.park@naver.com · +82 10-5837-9451\",\n  \"subject_person_name\": \"Soo-jin Park\",\n  \"cards\": [\n    {\n      \"label\": \"Market\",\n      \"value\": \"South Korea\"\n    },\n    {\n      \"label\": \"Language\",\n      \"value\": \"Korean\"\n    },\n    {\n      \"label\": \"Email opt-in\",\n      \"value\": \"Yes\"\n    },\n    {\n      \"label\": \"SMS opt-in\",\n      \"value\": \"No\"\n    },\n    {\n      \"label\": \"Last refreshed\",\n      \"value\": \"15 Sep 2026 23:40 UTC\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Profile\",\n    \"count_text\": \"Updated moments ago · 4 records\",\n    \"columns\": [\n      \"Time\",\n      \"Activity\",\n      \"Detail\"\n    ],\n    \"rows\": [\n      [\n        \"23:40\",\n        \"Product-category update\",\n        \"Desk accessories · Drinkware\"\n      ],\n      [\n        \"23:38\",\n        \"Campaign eligibility check\",\n        \"Autumn offers · Eligible\"\n      ],\n      [\n        \"23:35\",\n        \"Profile refresh\",\n        \"Live profile fields updated\"\n      ],\n      [\n        \"23:32\",\n        \"Audience evaluation\",\n        \"Returning customers — East Asia\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"Audience membership\",\n    \"fields\": [\n      {\n        \"label\": \"Audience\",\n        \"value\": \"Returning customers — East Asia\"\n      },\n      {\n        \"label\": \"Segments\",\n        \"value\": \"Repeat customer · Home & lifestyle · Mobile shopper\"\n      },\n      {\n        \"label\": \"Preferred categories\",\n        \"value\": \"Desk accessories · Drinkware\"\n      },\n      {\n        \"label\": \"Last campaign\",\n        \"value\": \"Autumn offers\"\n      },\n      {\n        \"label\": \"Open rate\",\n        \"value\": \"32.4%\"\n      },\n      {\n        \"label\": \"Click rate\",\n        \"value\": \"6.8%\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"Autumn offers\",\n      \"text\": \"32.4% open rate\"\n    },\n    {\n      \"when\": \"Home & Lifestyle Picks\",\n      \"text\": \"28.7% open rate\"\n    },\n    {\n      \"when\": \"Profile refreshed from live data\",\n      \"text\": \"Recorded\"\n    }\n  ]\n}"
+}

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(../../bin/ghost verify:*)",
+      "Bash(../../bin/ghost certificate:*)",
+      "Bash(../../bin/ghost status:*)",
+      "Bash(../../bin/ghost reply:*)"
+    ],
+    "deny": [
+      "Bash(../../bin/ghost fix:*)",
+      "Bash(../../bin/ghost link:*)",
+      "Edit(../../state/**)",
+      "Write(../../state/**)"
+    ]
+  }
+}

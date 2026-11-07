@@ -1,0 +1,114 @@
+{
+ "result": {
+  "app_name": "Northstar Shop",
+  "search_box": null,
+  "breadcrumb": "Northstar Shop / Helpline Console / Inbox",
+  "page_title": "CS-5034 · Where is my delivery?",
+  "page_badge": "SLA 01:42",
+  "page_subtitle": "support_1034 · Kofi Agyeman · Normal priority",
+  "subject_person_name": "Kofi Agyeman",
+  "cards": [
+   {
+    "label": "Customer",
+    "value": "Kofi Agyeman"
+   },
+   {
+    "label": "Email",
+    "value": "kagyeman8947@fastmail.com"
+   },
+   {
+    "label": "Assigned",
+    "value": "Maya Chen"
+   },
+   {
+    "label": "Tags",
+    "value": "Delivery · Tracking · Order update"
+   }
+  ],
+  "table": {
+   "title": "Conversation",
+   "count_text": "Updated moments ago · 4 records",
+   "columns": [
+    "Time",
+    "Sender",
+    "Message"
+   ],
+   "rows": [
+    [
+     "09:12",
+     "Kofi Agyeman",
+     "Could you let me know where my order is and when it is expected to arrive?"
+    ],
+    [
+     "09:13",
+     "Northstar Bot",
+     "We received your message and are checking the order details."
+    ],
+    [
+     "09:28",
+     "Maya Chen",
+     "The parcel reached the regional hub and is on track for delivery on 26 May."
+    ],
+    [
+     "09:35",
+     "Kofi Agyeman",
+     "Thanks for the update."
+    ]
+   ]
+  },
+  "detail_panel": {
+   "title": "Order ORD-20265034",
+   "fields": [
+    {
+     "label": "Product",
+     "value": "Running shoes"
+    },
+    {
+     "label": "Status",
+     "value": "In transit"
+    },
+    {
+     "label": "Carrier",
+     "value": "SwiftShip"
+    },
+    {
+     "label": "Tracking",
+     "value": "SWF-884103"
+    },
+    {
+     "label": "Expected",
+     "value": "26 May 2026"
+    },
+    {
+     "label": "Assigned agent",
+     "value": "Maya Chen"
+    }
+   ]
+  },
+  "activity": [
+   {
+    "when": "22 May",
+    "text": "Order confirmed"
+   },
+   {
+    "when": "23 May",
+    "text": "Dispatched"
+   },
+   {
+    "when": "24 May 07:46",
+    "text": "Reached regional hub"
+   },
+   {
+    "when": "24 May 08:15",
+    "text": "In transit"
+   },
+   {
+    "when": "26 May",
+    "text": "Delivery expected"
+   }
+  ]
+ },
+ "input_tokens": 2741,
+ "output_tokens": 786,
+ "raw": "{\n  \"app_name\": \"Northstar Shop\",\n  \"search_box\": null,\n  \"breadcrumb\": \"Northstar Shop / Helpline Console / Inbox\",\n  \"page_title\": \"CS-5034 · Where is my delivery?\",\n  \"page_badge\": \"SLA 01:42\",\n  \"page_subtitle\": \"support_1034 · Kofi Agyeman · Normal priority\",\n  \"subject_person_name\": \"Kofi Agyeman\",\n  \"cards\": [\n    {\n      \"label\": \"Customer\",\n      \"value\": \"Kofi Agyeman\"\n    },\n    {\n      \"label\": \"Email\",\n      \"value\": \"kagyeman8947@fastmail.com\"\n    },\n    {\n      \"label\": \"Assigned\",\n      \"value\": \"Maya Chen\"\n    },\n    {\n      \"label\": \"Tags\",\n      \"value\": \"Delivery · Tracking · Order update\"\n    }\n  ],\n  \"table\": {\n    \"title\": \"Conversation\",\n    \"count_text\": \"Updated moments ago · 4 records\",\n    \"columns\": [\n      \"Time\",\n      \"Sender\",\n      \"Message\"\n    ],\n    \"rows\": [\n      [\n        \"09:12\",\n        \"Kofi Agyeman\",\n        \"Could you let me know where my order is and when it is expected to arrive?\"\n      ],\n      [\n        \"09:13\",\n        \"Northstar Bot\",\n        \"We received your message and are checking the order details.\"\n      ],\n      [\n        \"09:28\",\n        \"Maya Chen\",\n        \"The parcel reached the regional hub and is on track for delivery on 26 May.\"\n      ],\n      [\n        \"09:35\",\n        \"Kofi Agyeman\",\n        \"Thanks for the update.\"\n      ]\n    ]\n  },\n  \"detail_panel\": {\n    \"title\": \"Order ORD-20265034\",\n    \"fields\": [\n      {\n        \"label\": \"Product\",\n        \"value\": \"Running shoes\"\n      },\n      {\n        \"label\": \"Status\",\n        \"value\": \"In transit\"\n      },\n      {\n        \"label\": \"Carrier\",\n        \"value\": \"SwiftShip\"\n      },\n      {\n        \"label\": \"Tracking\",\n        \"value\": \"SWF-884103\"\n      },\n      {\n        \"label\": \"Expected\",\n        \"value\": \"26 May 2026\"\n      },\n      {\n        \"label\": \"Assigned agent\",\n        \"value\": \"Maya Chen\"\n      }\n    ]\n  },\n  \"activity\": [\n    {\n      \"when\": \"22 May\",\n      \"text\": \"Order confirmed\"\n    },\n    {\n      \"when\": \"23 May\",\n      \"text\": \"Dispatched\"\n    },\n    {\n      \"when\": \"24 May 07:46\",\n      \"text\": \"Reached regional hub\"\n    },\n    {\n      \"when\": \"24 May 08:15\",\n      \"text\": \"In transit\"\n    },\n    {\n      \"when\": \"26 May\",\n      \"text\": \"Delivery expected\"\n    }\n  ]\n}"
+}
